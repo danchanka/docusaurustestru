@@ -8,7 +8,7 @@ title: 'How-to: Интернационализация'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternationalization&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternationalization&block=sample1"/>
 
 Затем создаем новый Resource Bundle, куда пропишем значения идентификаторов на разных языках :
 
@@ -36,7 +36,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Идентификаторы можно также использовать и в выражениях :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternationalization&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternationalization&block=sample2"/>
 
 При этом надо помнить, что такие выражения не следует использовать в [материализациях](Материализации.md). 
 

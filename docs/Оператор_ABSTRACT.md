@@ -64,7 +64,7 @@ title: 'Оператор ABSTRACT'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=abstract"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=abstract"/>
 
 **  
 **

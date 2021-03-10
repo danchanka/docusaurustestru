@@ -2,7 +2,7 @@
 title: 'Оператор MULTI'
 ---
 
-Оператор **MULTI** - создание [свойства](Свойства.md), реализующего [выбор](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#Выбор(CASE,IF,MULTI,OVERRIDE,EXCLUSIVE-broken)-single) одного из значений (полиморфная форма).
+Оператор **MULTI** - создание [свойства](Свойства.md), реализующего [выбор](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#одиночная-форма) одного из значений (полиморфная форма).
 
 ### Синтаксис
 
@@ -20,7 +20,7 @@ title: 'Оператор MULTI'
 
 *exclusionType*
 
-[Тип взаимоисключения](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#Выбор(CASE,IF,MULTI,OVERRIDE,EXCLUSIVE-broken)-exclusive). Определяет, могут ли несколько условий выбора свойства одновременно выполняться при некотором наборе наборе параметров. Задается одним из ключевых слов:
+[Тип взаимоисключения](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#взаимоисключаемость-условий). Определяет, могут ли несколько условий выбора свойства одновременно выполняться при некотором наборе наборе параметров. Задается одним из ключевых слов:
 
 -   **EXCLUSIVE**
 -   **OVERRIDE**
@@ -34,7 +34,7 @@ title: 'Оператор MULTI'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=multi"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=multi"/>
 
 **  
 **

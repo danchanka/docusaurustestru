@@ -109,14 +109,14 @@ title: 'Инструкция DESIGN'
 |defaultComponent|<p>Указание того, что на данный компонент должен быть выставлен фокус при инициализации формы. Может быть установлен только для одного компонента на всей форме</p>|Дополненный [логический литерал](#booleanliteral-broken)|<strong>FALSE</strong>|<strong>TRUE</strong>, <strong>FALSE</strong>|
 |align, alignment|Способ выравнивания компонента внутри контейнера. Допустимые значения: <strong>START</strong> (В начале), <strong>CENTER</strong> (В центре), <strong>END</strong> (В конце), <strong>STRETCH</strong> (Растянуть).|Тип выравнивания|<strong>START</strong>|<strong>STRETCH</strong>|
 |flex|Коэффициент расширения. Значение свойства, аналогичного свойству [CSS flex-grow](http://www.w3schools.com/cssref/css3_pr_flex-grow.asp). Задает насколько компонент должен расти в размерах относительно других компонентов|[Литерал типа <strong>NUMERIC</strong>](#numericliteral-broken)|0|0.25|
-|fill|Аналогично свойству <em>flex</em>, но кроме того, если устанавливается нулевое значение, то свойство <em>align</em> устанавливается в <strong>START</strong>, иначе <em>align</em> устанавливается в <strong>STRETCH</strong>|Литерал типа <strong>NUMERIC</strong>|0|<p>1.5</p>|
+|fill|Аналогично свойству *flex*, но кроме того, если устанавливается нулевое значение, то свойство *align* устанавливается в <strong>START</strong>, иначе *align* устанавливается в <strong>STRETCH</strong>|Литерал типа <strong>NUMERIC</strong>|0|<p>1.5</p>|
 |noSort |Запрет сортировки|[Логический литерал](#booleanliteral-broken)|<strong>FALSE</strong>|<p><strong>TRUE</strong>, <strong>FALSE</strong></p>|
 |defaultCompare|Фильтр по умолчанию. Допустимые значения: <strong>EQUALS</strong>, <strong>GREATER</strong>, <strong></strong> <strong>LESS</strong>, <strong></strong> <strong>GREATER_EQUALS</strong>, <strong></strong> <strong>LESS_EQUALS</strong>, <strong>NOT_EQUALS</strong>, <strong>START_WITH</strong>, <strong>CONTAINS</strong>, <strong></strong> <strong>ENDS_WITH</strong>, <strong>LIKE.</strong>|Строковый литерал|<strong>CONTAINS</strong>|<p><strong>START_WITH</strong></p>|
 |marginTop|Отступ сверху|Целочисленный литерал|0|3|
 |marginRight|Отступ справа|Целочисленный литерал|0|1|
 |marginBottom|Отступ снизу|Целочисленный литерал|0|4|
 |marginLeft|Отступ слева|Целочисленный литерал|0|1|
-|margin|Отступ. Устанавливает одинаковое значение свойствам <em>marginTop</em>, <em>marginRight</em>, <em>marginBottom</em>, <em>marginLeft</em>|Целочисленный литерал|0|5|
+|margin|Отступ. Устанавливает одинаковое значение свойствам *marginTop*, *marginRight*, *marginBottom*, *marginLeft*|Целочисленный литерал|0|5|
 
 ### *Свойства контейнеров*
 
@@ -233,7 +233,7 @@ title: 'Инструкция DESIGN'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=FormSample&block=design"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=FormSample&block=design"/>
 
 На выходе получаем следующую форму :
 

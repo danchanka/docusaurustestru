@@ -10,13 +10,13 @@ title: 'How-to: Матрица'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseColumns&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseColumns&block=sample1"/>
 
 Нужно построить форму с единственной таблицей, в которой в строках будут книги, а в колонках - покупатели. В каждой ячейке должна быть цена для данной книги и покупателя.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseColumns&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseColumns&block=solution1"/>
 
 Объект **c** не будет отображаться на форме, так как для него не добавлено ни одного свойства.
 
@@ -30,13 +30,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**, только для книги и покупателя также задается отсрочка платежа в днях.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseColumns&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseColumns&block=sample2"/>
 
 Нужно построить форму с единственной таблицей, в которой в строках будут книги, а в колонках - покупатели. При этом для каждого покупателя должно быть две колонки рядом : цена и отсрочка. Колонки с отсрочкой нужно выделить желтым цветом. Должна быть возможность выбирать каких покупателей отображать в колонки.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseColumns&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseColumns&block=solution2"/>
 
 В колонки будут показываться только те объекты, которые попадают в фильтр для объекта **c**. Кроме того, колонки будут идти в том же порядке, что и объекты.
 
@@ -54,7 +54,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseColumns&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseColumns&block=solution3"/>
 
 В рабочих проектах лучше ограничивать количество рядов и колонок при вводе или фильтрации. Иначе, если пользователь введет очень большое количество строк или столбцов для свойства **iterate** будет сформирован CTE запрос с таблицей на это количество записей, что может привести к падению сервера базы данных.
 

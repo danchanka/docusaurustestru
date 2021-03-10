@@ -8,15 +8,15 @@ title: 'How-to: Пространства имен'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNamePurchase&block=sample"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNamePurchase&block=sample"/>
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNameSale&block=sample"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNameSale&block=sample"/>
 
 В обоих из них объявлен класс **Order**, но так как у модулей разные пространства имен, то у первого класса оно будет **Purchase**, а у второго **Sale**.
 
 Объявим тестовый модуль с пространством имен **Test**, который будет одновременно зависеть и от первого, и от второго модуля :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNameTest&block=sample"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNameTest&block=sample"/>
 
 При попытке обратиться к классу **Order** без явного указания пространства имен будет выдана ошибка :
 
@@ -26,14 +26,14 @@ import {CodeSample} from './CodeSample.mdx'
 
 В случае, если пространство имен модуля совпадает с пространством искомого элемента системы (например, **Purchase**)
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNameTest2&block=namespace"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNameTest2&block=namespace"/>
 
 или указан приоритет пространств имен через инструкцию [PRIORITY](Заголовок_модуля.md)
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNameTest2&block=priority"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNameTest2&block=priority"/>
 
 то можно пространство имен не указывать
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNameTest2&block=sample"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNameTest2&block=sample"/>
 
 Без указания пространства имен будет использоваться класс из **Purchase**. При этом остается возможность в явную указать пространство имен (например, **Sale**).

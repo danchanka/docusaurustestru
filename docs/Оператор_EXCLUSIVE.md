@@ -2,7 +2,7 @@
 title: 'Оператор EXCLUSIVE'
 ---
 
-Оператор **EXCLUSIVE **- создание [свойства](Свойства.md), реализующего [выбор](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#Выбор(CASE,IF,MULTI,OVERRIDE,EXCLUSIVE-broken)-exclusive) одного из значений (полиморфная форма).
+Оператор **EXCLUSIVE **- создание [свойства](Свойства.md), реализующего [выбор](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#взаимоисключаемость-условий) одного из значений (полиморфная форма).
 
 ### Синтаксис
 
@@ -23,7 +23,7 @@ title: 'Оператор EXCLUSIVE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=exclusive"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=exclusive"/>
 
 **  
 **

@@ -32,6 +32,6 @@ title: 'Оператор ACTIVATE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=activate"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=activate"/>
 
   

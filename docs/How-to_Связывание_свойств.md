@@ -10,13 +10,13 @@ title: 'How-to: Связывание свойств'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=sample1"/>
 
 Нужно определить логику, что город может быть привязан только к региону той же страны, в которой он находится.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution1"/>
 
 При помощи инструкции [CONSTRAINT](Инструкция_CONSTRAINT.md) указывается условие, которое должно принимать всегда значение **NULL**. В данном случае ограничение на основе этого условия будет срабатывать в том случае, если заданы страна для города, регион для города, страна для региона, и страна региона не совпадет со страной города. Конструкция **CHECKED BY** указывает, что при выборе региона в диалоге будут, по умолчанию, фильтроваться регионы таким образом, чтобы не нарушить это ограничение. Следует отметить, что если страна для города при вводе еще не задана, то условие будет при любом условии **NULL**, и в диалоге будут показаны все существующие регионы.
 
@@ -30,7 +30,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution2"/>
 
 Следует отметить, что после того, как пользователь выберет регион и будет проставлена страна, то при повторном вызове диалога будут фильтроваться уже регионы выбранный страны. Если пользователь захочет опять увидеть все регионы, то ему нужно будет сначала сбросить страну. Выражение обозначающее, что страна не изменилась, добавляется для того, что если города будут изменяться внешними действиями, которые изменяют одновременно и страну и регион, то не происходило замещение страны этим событием.
 
@@ -44,7 +44,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution3"/>
 
 Разница с первым примером заключается в том, что в новом условии, если выбран регион, то оно будет истинным, если не задана страна. Таким образом и в диалоге в этом случае не будет отображаться ни один регион.
 
@@ -60,7 +60,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution4"/>
 
 ##### Пример 5
 
@@ -74,4 +74,4 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDependentProperties&block=solution5"/>

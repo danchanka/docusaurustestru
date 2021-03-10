@@ -48,6 +48,6 @@ title: 'Оператор AGGR'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=AggregationSample&block=aggr"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=AggregationSample&block=aggr"/>
 
   

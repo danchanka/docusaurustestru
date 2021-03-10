@@ -27,6 +27,6 @@ title: 'Оператор DELETE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=delete"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=delete"/>
 
   

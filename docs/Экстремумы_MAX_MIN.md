@@ -12,10 +12,10 @@ title: 'Экстремумы (MAX, MIN)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=max"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=max"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=min"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=min"/>
 
 **  
 **

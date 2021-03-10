@@ -10,13 +10,13 @@ title: 'How-to: Деревья'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTree&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTree&block=sample1"/>
 
 Нужно построить форму с деревом, в котором на верхнем уровне будет категория, а под ним - товар.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTree&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTree&block=solution1"/>
 
 ##### Пример 2
 
@@ -24,13 +24,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогичен **Примеру 1**, но для категории задана иерархия путем указания родителя каждой категории.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTree&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTree&block=sample2"/>
 
 Нужно построить форму с деревом, в котором будут отображаться категории в виде дерева.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTree&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTree&block=solution2"/>
 
 ##### Пример 3
 
@@ -42,4 +42,4 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTree&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTree&block=solution3"/>

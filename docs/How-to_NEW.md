@@ -10,13 +10,13 @@ title: 'How-to: NEW'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNew&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNew&block=sample1"/>
 
 Нужно создать действие, которое создаст новый заказ на основе заданного.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNew&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNew&block=solution1"/>
 
 ##### Пример 2
 
@@ -24,10 +24,10 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**, но для заказа заданы строки заказов.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNew&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNew&block=sample2"/>
 
 Нужно создать действие, которое создаст новый заказ на основе выбранного, с идентичными строками.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNew&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNew&block=solution2"/>

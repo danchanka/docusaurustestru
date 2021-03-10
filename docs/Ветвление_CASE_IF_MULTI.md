@@ -34,13 +34,13 @@ title: 'Ветвление (CASE, IF, MULTI)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=case"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=case"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=ifthena"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=ifthena"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=multi"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=multi"/>
 
   
 

@@ -10,13 +10,13 @@ title: 'How-to: SEEK'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSeek&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=sample1"/>
 
 Нужно создать действие, которое создаст новую книгу, автоматически проставит текущую категорию и выберет ее активной после того, как пользователь сохранит и закроет форму.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution1"/>
 
 После закрытия формы вызывается оператор [SEEK](Оператор_SEEK.md), который делает добавленный объект активным.
 
@@ -26,13 +26,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**. Также добавлена логика покупателей. Для каждого покупателя и книги можно задать цену в определенной форме.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSeek&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=sample2"/>
 
 Нужно добавить покупателя по умолчанию, который будет проставляться при открытии формы.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution2"/>
 
 Свойство с покупателем по умолчанию добавляется на форму Настройка во вкладку Общие. Текущий объект изменится при входе на форму, так как сработает событие [ON INIT](Блок_событий.md).
 
@@ -42,12 +42,12 @@ import {CodeSample} from './CodeSample.mdx'
 
 Предположим, что есть некоторая форма отчетов, в котором задан интервал дат.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSeek&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=sample3"/>
 
 Нужно сделать кнопки, которые будут изменять интервал на последнюю неделю, текущий месяц и последний месяц.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution3"/>
 
 Свойства по работе с датами находятся в [системном модуле](Модули.md) **Time**, который подключается в самом начале через инструкцию **REQUIRE**.

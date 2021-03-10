@@ -10,13 +10,13 @@ title: 'How-to: События'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample1"/>
 
 Нужно сделать, чтобы заказы автоматически закрывались по окончании дня.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution1"/>
 
 В первом случае, событие будет выполнено только в одной транзакции в момент изменения выражения внутри оператора [SET](Операторы_изменений_SET_CHANGED_....md). А именно в тот момент, когда дата заказа становится меньше текущей даты. Однако, в случае если пользователь вручную изменит дату заказа больше текущей и сохранит, то система автоматически выполнит это событие и закроет заказ. Поэтому второй вариант предпочтительнее, так как оно будет срабатывать только в момент изменения текущей даты в полночь.
 
@@ -26,13 +26,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**, но для заказа заданы строки с количеством, ценой и суммой.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample2"/>
 
 Нужно сделать, чтобы при изменении цены или количества в сумму автоматически записывалось их перемножение.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution2"/>
 
 События с типом **LOCAL** считают все изменения свойств не относительно состояния базы данных, а относительно значений, которые были на момент изменений, которые вызвали это событие. Проверка на то, что не изменилась **sum**, нужна чтобы не затереть изменения, сделанные предыдущими изменениями. Например, если был импорт строк заказов из файла, при котором записываются количество, цена и сумма, то это событие уже не сработает.
 
@@ -42,13 +42,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 2**, но для строки заказа задана книга. Для каждой книги также задана цена по умолчанию.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample3"/>
 
 Нужно сделать, чтобы при изменении книги в строку заказа автоматически проставлялась цена. Это событие должно работать только на форме редактирования заказа.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution3"/>
 
 Событие
 
@@ -58,13 +58,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть заказ, для которого заданы дата, номер и признак того, является ли он закрытым.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample1"/>
 
 Нужно сделать, чтобы заказы автоматически закрывались по окончании дня.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution1"/>
 
 В первом случае, событие будет выполнено только в одной транзакции в момент изменения выражения внутри оператора [SET](Операторы_изменений_SET_CHANGED_....md). А именно в тот момент, когда дата заказа становится меньше текущей даты. Однако, в случае если пользователь вручную изменит дату заказа больше текущей и сохранит, то система автоматически выполнит это событие и закроет заказ. Поэтому второй вариант предпочтительнее, так как оно будет срабатывать только в момент изменения текущей даты в полночь.
 
@@ -74,13 +74,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**, но для заказа заданы строки с количеством, ценой и суммой.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample2"/>
 
 Нужно сделать, чтобы при изменении цены или количества в сумму автоматически записывалось их перемножение.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution2"/>
 
 События с типом **LOCAL** считают все изменения свойств не относительно состояния базы данных, а относительно значений, которые были на момент изменений, которые вызвали это событие. Проверка на то, что не изменилась **sum**, нужна чтобы не затереть изменения сделанные предыдущими изменениями. Например, если был импорт строк заказов из файла, при котором записываются количество, цена и сумма, то это событие уже не сработает.
 
@@ -90,13 +90,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 2**, но для строки заказа задана книга. Для каждой книги также задана цена по умолчанию.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=sample3"/>
 
 Нужно сделать, чтобы при изменении книги в строку заказа автоматически проставлялась цена. Это событие должно работать только на форме редактирования заказа.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution3"/>
 
 В данном случае, событие будет срабатывать только при изменении или задании книги. При сбрасывании книги цена изменятся не будет.
 
@@ -112,6 +112,6 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseEvents&block=solution4"/>
 
 При удалении заказа и срабатывании события с модификатором **DROPPED**, важно помнить, что объекта уже не существует и все свойства, которые принимают его на вход, будут давать значения **NULL**. Поэтому нужно обращаться к ним не напрямую, а через модификатор **DROPPED**.

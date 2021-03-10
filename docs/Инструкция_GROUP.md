@@ -38,7 +38,7 @@ title: 'Инструкция GROUP'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=InstructionSample&block=group"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=InstructionSample&block=group"/>
 
 **  
 **

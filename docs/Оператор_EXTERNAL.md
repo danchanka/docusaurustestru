@@ -91,6 +91,6 @@ lsfExecType
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=external"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=external"/>
 
   

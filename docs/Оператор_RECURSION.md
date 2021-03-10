@@ -39,13 +39,13 @@ title: 'Оператор RECURSION'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=recursion1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=recursion1"/>
 
 **  
 **
 
 Заметим, что числа Фибоначчи можно реализовать без добавления параметра to:
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=recursion2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=recursion2"/>
 
 Но в текущей реализации оптимизатор платформы в меньшей степени ориентирован на работу с числами, поэтому пока не может определить, что функция шага возрастающая, и сам остановить рекурсию, искусственно создав соответствующие условие, как это сделано в верхнем примере. Еще больше вопросов возникает, когда это свойство необходимо отображать в динамическом списке (а в статическом списке это невозможно сделать, так как количество не **NULL** значений бесконечно). В этом случае необходимо также учитывать текущей порядок в этом списке, и также проталкивать его внутрь запроса. Эти ограничения будут устранены в будущих версиях, но в текущей версии их рекомендуется учитывать.

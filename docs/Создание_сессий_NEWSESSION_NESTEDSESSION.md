@@ -18,7 +18,7 @@ title: 'Создание сессий (NEWSESSION, NESTEDSESSION)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=newsession"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=newsession"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=nestedsession"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=nestedsession"/>

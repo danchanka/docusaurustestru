@@ -10,13 +10,13 @@ title: 'How-to: Ограничения'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample1"/>
 
 Нужно сделать, чтобы было запрещено вводить цены больше 100.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution1"/>
 
 При попытке сохранения некоторой книги с ценой больше 100 в любой форме пользователю будет выдано сообщение с соответствующим текстом. Также в этом сообщении будут показаны все объекты класса **Book**, для которых нарушено ограничение. Для каждого объекта будут выведены значения свойств, которые находятся в группе **id**.
 
@@ -28,13 +28,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Задан заказ, для которого заданы дата, номер и признак того, является ли он проведенным.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample2"/>
 
 Нужно запретить изменение даты заказа .
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution2"/>
 
 ##### Пример 3
 
@@ -46,7 +46,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution3"/>
 
 При удалении заказа все его свойства будут иметь значение **NULL**. Поэтому для обращения к значениям его свойств нужно использовать оператор **PREV**.
 
@@ -56,13 +56,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1** и **Примеру 2**. Также для заказа заданы строки со ссылкой на книгу и указанием цены.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample4"/>
 
 Нужно запретить ввод для строки заказа цены, превышающей цену книги на 10%.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution4"/>
 
 Так как в выражении не задано ни одного оператора изменений, то это ограничение сработает при изменении цены для строки, книги или цены книги. Поэтому пользователь не сможет изменить цену книги, если по ней были заказы с ценой меньше чем на 10%. Если такое поведение не требуется, то нужно в явную расставлять операторы изменений на те свойства, при изменении которых ограничение должно срабатывать.
 
@@ -72,13 +72,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 4**. Введено понятие покупатель и возможность выбора книг, доступных ему.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=sample5"/>
 
 Нужно запретить ввод для строки заказа книг, недоступных покупателю.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution5"/>
 
 Проверка на то, что свойство **book** для строки заказа задана нужна потому, что иначе под ограничение попадут все строки заказов с еще не выбранной книгой. Конструкция **CHECKED BY **включает фильтр на форме выбора книги для строки заказа таким образом, чтобы не нарушить заданное ограничение. Таким образом пользователю будут показаны только доступные покупателю книги.
 
@@ -92,6 +92,6 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution6"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConstraint&block=solution6"/>
 
 Второй вариант аналогичен первому, но он позволяет модифицировать выдаваемое сообщение пользователю, а также изменять логику обработки ограничения.

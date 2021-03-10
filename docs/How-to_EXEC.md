@@ -10,13 +10,13 @@ title: 'How-to: EXEC'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExec&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExec&block=sample1"/>
 
 Нужно создать действие, которое создаст 3 новых предопределенных категории.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExec&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExec&block=solution1"/>
 
 ##### Пример 2
 
@@ -24,10 +24,10 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**, но у каждой категории задан ее "родитель".
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExec&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExec&block=sample2"/>
 
 Нужно создать действие, которое проставит глубину категории для каждой из них.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExec&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExec&block=solution2"/>

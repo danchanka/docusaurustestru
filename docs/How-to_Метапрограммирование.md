@@ -8,23 +8,23 @@ title: 'How-to: Метапрограммирование'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample2"/>
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution2"/>
 
 На основе этого программного кода можно создать следующий метакод :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseMeta&block=defineobject"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseMeta&block=defineobject"/>
 
 Важно отметить, что один метакод может внутри вызывать другой.
 
 Использование метакода осуществляется следующим образом :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseMeta&block=defineobject"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseMeta&block=defineobject"/>
 
 В первом случае, при генерации результирующего кода система заменит все лексемы **id** на *book*, **shortId** на *b*, **caption** на *'Книга'*, а **multiCaption** на *'Книги'*. При этом при использовании склейки \#\# замена будет произведена без изменений, а при использовании \#\#\# первая буква значения будет заменена на заглавную. Сгенерированный код будет выглядеть следующим образом :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseMetaResult&block=usedefineobject"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseMetaResult&block=usedefineobject"/>
 
 Для того, чтобы IDE "видела" код сгенерированный метакодами, нужно включить соответствующий режим через пункт меню.
 
@@ -38,4 +38,4 @@ import {CodeSample} from './CodeSample.mdx'
 
 Объекты, созданные при помощи метакода, можно в дальнейшем расширять используя стандартные [механизмы](How-to_Расширения.md).
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseMetaResult&block=extenddefineobject"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseMetaResult&block=extenddefineobject"/>

@@ -10,13 +10,13 @@ title: 'How-to: Создание на основе'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCreate&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCreate&block=sample1"/>
 
 Нужно сделать кнопку, которая на основе текущей книги создаст новую и откроет форму по ее редактированию.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCreate&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCreate&block=solution1"/>
 
 При нажатии кнопки будет создана новая [сессия изменений](Сессии_изменений.md), в которой создастся книга и будет работать новая форма. Если пользователь закроет форму без сохранения, то новая книга не будет сохранена в базу данных и будет потеряна. Слово **TOOLBAR** указывает на то, что эту кнопку надо отображать в тулбаре таблицы со списком заказов.
 
@@ -26,13 +26,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Введены понятия документов заказа и счета, а также формы по их просмотру и редактированию. Для каждого из документов заданы строки.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCreate&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCreate&block=sample2"/>
 
 Нужно реализовать [действие](Действия.md), которое создаст на основе заказа счет и откроет форму по его редактированию.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCreate&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCreate&block=solution2"/>
 
 ##### Пример 3
 
@@ -44,6 +44,6 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCreate&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCreate&block=solution3"/>
 
 Никаких манипуляция с сессиями изменений не требуется, так как кнопка будет вызываться из формы редактирования счета, и изменения будут происходить в ее сессии.

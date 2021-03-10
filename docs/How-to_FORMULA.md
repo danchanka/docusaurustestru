@@ -10,13 +10,13 @@ title: 'How-to: FORMULA'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormula&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormula&block=sample1"/>
 
 Необходимо экспортировать в CSV этот список, причем дату экспортировать в формате ISO (YYYY-MM-DD).
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution1"/>
 
 Для решения задачи создаем свойство при помощи оператора [FORMULA](Оператор_FORMULA.md), которое будет принимать на вход дату и возвращать значение в виде строки в формате YYYY-MM-DD. В выражении формулы используется стандартная функция PostgreSQL [to\_char](https://www.postgresql.org/docs/11/functions-formatting.html).
 
@@ -26,13 +26,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**. Также добавлены строки заказов с параметрами количество и сумма.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormula&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormula&block=sample2"/>
 
 Нужно выгрузить по одному заказу CSV-файл с его строками, в котором количества и суммы будут отформатированы до 3х и 2х знаков соответственно. Кроме того, нужно чтобы числа разбивались по триадам.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution2"/>
 
 Создаем свойство toString, которое принимает на вход два параметра (число и формат) и возвращает значение типа **TEXT**. При выгрузке передаем нужный формат в качестве второго параметра.
 
@@ -46,7 +46,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution3"/>
 
 Так как внутри формулы используются одинарные кавычки, то их требуется [экранировать](https://ru.wikipedia.org/wiki/%D0%AD%D0%BA%D1%80%D0%B0%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%BE%D0%B2) при помощи обратного слэша **\\**.
 

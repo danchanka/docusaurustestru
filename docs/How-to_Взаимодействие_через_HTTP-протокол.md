@@ -10,13 +10,13 @@ title: 'How-to: Взаимодействие через HTTP-протокол'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=sample1"/>
 
 Нужно отправить на определенный url HTTP-запрос на добавление города в формате JSON.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution1"/>
 
 Оператор [EXPORT](Экспорт_данных_EXPORT.md) создаст JSON в формате [FILE](Встроенные_классы.md) и сохранит его в свойство exportFile. Пример сформированного файла : 
 
@@ -40,7 +40,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution2"/>
 
 Так как свойство имеет название **createCity** и расположено в [модуле](Модули.md) с пространством имен **Location**, то url, на котором будет принят запрос, имеет следующий вид :
 
@@ -58,13 +58,13 @@ Body HTTP-запроса будет передан параметром с ти�
 
 Задана логика заказов книг.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=sample3"/>
 
 Нужно отправить на определенный url HTTP-запрос на создание заказа в формате JSON.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution3"/>
 
 Для создания JSON с вложенными тэгами нужно создать форму с соответствующими объектами, связанными через конструкцию **FILTERS**. На основе зависимостей между ними создается JSON с соответствующей структурой. В данном случае, JSON будет выглядеть следующим образом :
 
@@ -98,7 +98,7 @@ Body HTTP-запроса будет передан параметром с ти�
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution4"/>
 
 Для импорта соответствующего файла в формате JSON создается форма аналогичной структуры, только в качестве классов объектов используется тип INTEGER. При импорте значения тэгов будут помещены в свойства с соответствующими именами. Свойства **date** и **number** не имеют параметров, так как в JSON значения для них идут на самом верхнем уровне.
 
@@ -112,7 +112,7 @@ Body HTTP-запроса будет передан параметром с ти�
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution5"/>
 
   
 
@@ -147,7 +147,7 @@ Body HTTP-запроса будет передан параметром с ти�
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution6"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution6"/>
 
 Точно также как и при экспорте, добавляем все свойств и объект **detail** в группу order для корректного приема новой версии JSON.
 
@@ -161,7 +161,7 @@ Body HTTP-запроса будет передан параметром с ти�
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution7"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExternal&block=solution7"/>
 
 Url, на который следует слать HTTP запрос, будет выглядеть следующим образом :  http://localhost:7651/exec?action=Location.getOrdersByDate&p=12.11.2018 .
 

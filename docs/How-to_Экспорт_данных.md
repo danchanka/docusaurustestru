@@ -10,13 +10,13 @@ title: 'How-to: Экспорт данных'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExport&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExport&block=sample1"/>
 
 Нужно сделать кнопку, которая выгрузит содержимое заказа в XML-формат.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExport&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExport&block=solution1"/>
 
 Для выгрузки в XML формат, сначала создается форма [соответствующей структуры](Структурированное_представление.md), а затем вызывается [оператор EXPORT](Оператор_EXPORT.md). Он на основе формы формирует файл и складывает его в свойство **exportFile**, которое затем открывается на клиенте при помощи действия **open**. Оно показывает файл в приложении, ассоциированном с его расширением (в данном случае .json).
 
@@ -82,7 +82,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExport&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExport&block=solution2"/>
 
 Результирующий файл будет выглядеть следующим образом :
 
@@ -125,7 +125,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseExport&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseExport&block=solution3"/>
 
 Первое действие принимает на вход дату и, при помощи оператора **EXPORT**, формирует плоский файл CSV с разделителем точка с запятой. Файл будет выглядеть следующим образом :
 

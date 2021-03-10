@@ -2,7 +2,7 @@
 title: 'Оператор MULTI (д)'
 ---
 
-Оператор **MULTI** - создание [действия](Действия.md), реализующего [ветвление](Ветвление_CASE_IF_MULTI.md#Ветвление(CASE,IF,MULTI-broken)-poly) (полиморфная форма).
+Оператор **MULTI** - создание [действия](Действия.md), реализующего [ветвление](Ветвление_CASE_IF_MULTI.md#полиморфная-форма) (полиморфная форма).
 
 ### Синтаксис
 
@@ -16,7 +16,7 @@ title: 'Оператор MULTI (д)'
 
 *exclusionType*
 
-[Тип взаимоисключения](Ветвление_CASE_IF_MULTI.md#Ветвление(CASE,IF,MULTI-broken)-exclusive). Определяет, могут ли несколько условий выбора действия одновременно выполняться при некотором наборе наборе параметров. Задается одним из ключевых слов:
+[Тип взаимоисключения](Ветвление_CASE_IF_MULTI.md#взаимоисключаемость-условий). Определяет, могут ли несколько условий выбора действия одновременно выполняться при некотором наборе наборе параметров. Задается одним из ключевых слов:
 
 -   **EXCLUSIVE**
 -   **OVERRIDE**
@@ -34,6 +34,6 @@ title: 'Оператор MULTI (д)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=multi"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=multi"/>
 
   

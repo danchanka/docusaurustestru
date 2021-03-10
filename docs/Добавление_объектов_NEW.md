@@ -8,7 +8,7 @@ title: 'Добавление объектов (NEW)'
 
 Пользовательский класс, объекты которого будет создавать этот оператор, должен быть конкретным.
 
-Добавлять объекты в систему также можно при помощи соответствующей [опции](Цикл_FOR.md#Цикл(FOR-broken)-addobject) в операторе [цикла](Цикл_FOR.md).
+Добавлять объекты в систему также можно при помощи соответствующей [опции](Цикл_FOR.md#добавление-объекта) в операторе [цикла](Цикл_FOR.md).
 
 ### Язык
 
@@ -18,6 +18,6 @@ title: 'Добавление объектов (NEW)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=new"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=new"/>
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=for"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=for"/>

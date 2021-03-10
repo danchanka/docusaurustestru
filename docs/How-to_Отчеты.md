@@ -10,7 +10,7 @@ title: 'How-to: Отчеты'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=sample1"/>
 
 Нужно сделать [печатную форму](Печатное_представление.md), в которой будут отображаться все книги с разбивкой по категориям. Также нужно сделать экспорт этой формы в формат XLSX.
 
@@ -18,17 +18,17 @@ import {CodeSample} from './CodeSample.mdx'
 
 Сначала объявим [форму](Формы.md), которая описывает структуру печатной формы.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=solution1a"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=solution1a"/>
 
 Затем добавим два действия, которые при помощи оператора [PRINT](Оператор_PRINT.md) формируют отчет и выводят его на предпросмотр и в XLSX соответственно.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=solution1b"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=solution1b"/>
 
 Выведем их на форму **books** в тулбар таблицы с книгами.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=solution1c"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=solution1c"/>
 
-Затем запускаем сервер из IDE, запускаем десктоп-клиент, открываем форму с книгами и жмем созданную кнопку печати. Система создаст автоматическую печатную форму и откроет ее в режиме [предпросмотра](В_печатном_представлении_PRINT.md#Впечатномпредставлении(PRINT-broken)-interactive). Далее нужно нажать указанную ниже кнопку :
+Затем запускаем сервер из IDE, запускаем десктоп-клиент, открываем форму с книгами и жмем созданную кнопку печати. Система создаст автоматическую печатную форму и откроет ее в режиме [предпросмотра](В_печатном_представлении_PRINT.md#интерактивное-печатное-представление). Далее нужно нажать указанную ниже кнопку :
 
 ![](attachments/46367627/46367670.png)
 
@@ -149,7 +149,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Задана логика счетов.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=sample2"/>
 
 Нужно сделать печатную форму счета, в которой будут отображаться его параметры и все строки. Также нужно сделать экспорт этой формы в формат DOCX.
 
@@ -157,7 +157,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Для создания печатной формы воспользуемся уже существующей формой **invoice**, которая подходит нам по структуре. Однако, при необходимости можно было бы создать новую форму.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=solution2"/>
 
 Поскольку объекты **i** формы **invoice** отображается в панель, то в отчете будут данные только касательного того счета, который передается параметром в этот объект в операторе **PRINT**.
 
@@ -264,7 +264,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 2**, только добавлена логика покупателей и заказов.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=sample3"/>
 
 Нужно сделать печатную форму с информацией о клиенте, в которой будут показаны по нему все заказы и счета.
 
@@ -272,7 +272,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Сначала создаем форму, структура которой должна соответствовать логике печатной формы. Объект покупателя отображаем в панель, поскольку необходимо выводить только данные по одному покупателю. Все же остальные объекты остаются таблицами.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseReports&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseReports&block=solution3"/>
 
 Специфика данного отчета заключается в том, что объекты со счетами и заказами не зависят друг от друга. Таким образом, они будут сформированы в разные подотчеты (**Subreport**).
 

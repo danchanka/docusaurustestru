@@ -40,21 +40,21 @@ title: 'Выбор (CASE, IF, MULTI, OVERRIDE, EXCLUSIVE)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=case"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=case"/>
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=multi"/>
-
-
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=override"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=multi"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=exclusive"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=override"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=if"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=exclusive"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=ifthen"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=if"/>
+
+
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=ifthen"/>
 
 **  
 **

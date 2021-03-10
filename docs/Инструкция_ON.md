@@ -26,7 +26,7 @@ title: 'Инструкция ON'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=InstructionSample&block=on"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=InstructionSample&block=on"/>
 
  
 

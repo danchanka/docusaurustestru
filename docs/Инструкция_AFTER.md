@@ -31,6 +31,6 @@ title: 'Инструкция AFTER'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=InstructionSample&block=after"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=InstructionSample&block=after"/>
 
   

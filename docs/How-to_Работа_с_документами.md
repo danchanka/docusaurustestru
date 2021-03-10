@@ -10,21 +10,21 @@ title: 'How-to: Работа с документами'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=sample1"/>
 
 Для заказов создана форма редактирования.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution1"/>
 
 Кроме того, для заказа добавлен признак **Проведен**. В дальнейшем, заказы только с этим признаком будут участвовать в последующих расчетах (например, при расчете зарезервированного количества).
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=sample3"/>
 
 Необходимо сделать, чтобы на форме заказов вместо кнопки **ОК** была кнопка **Провести**, которая одновременно проставляет признак **Проведен** для заказа, сохраняет изменения и закрывает форму.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution3"/>
 
 При нажатии переименованной кнопки **OK** будет в единой транзакции выполнено действие **post**. При такой схеме, если пользователь захочет "распровести" документ, то он должен зайти в форму редактирования, снять галочку **Проведен** в шапке документа, и нажать последовательно **Сохранить** и **Закрыть**.
 
@@ -38,7 +38,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution4"/>
 
 Форма будет выглядеть следующим образом :
 
@@ -48,7 +48,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 В случае, если в заказе будет две или более строк с одной книгой, то система сбросит количество в первых строках и проставит введенное количество в последней строке. Чтобы изменение касалось только последней строки, то нужно при записи количество использовать следующее действие :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution4a"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution4a"/>
 
 Однако, такое поведение будет не понятно пользователю, так как после ввода определенного количества на вкладке **Подбор**, в этой же колонке будет показываться суммарное количество по всем строкам, которое отличается от введенного.
 
@@ -66,29 +66,29 @@ import {CodeSample} from './CodeSample.mdx'
 
 Для реализации такой логики необходимо создать абстрактный [класс](Классы.md) **Invoice** с нужным набором [абстрактных свойств](Расширение_свойств.md).
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5a"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5a"/>
 
 Также создается форма со списком объектов этого абстрактного класса. В ней будут видны объекты всех классов, наследуемых от класса **Invoice**.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5b"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5b"/>
 
 Свойство **edit** будет вызывать форму редактирования текущего объекта, заданную для его класса. Если для класса текущего объекта она не определена, то никаких действий проведено не будет. Свойство **DELETE** удалит текущий объект, если не нарушится никакого ограничения.
 
 В системе не может существовать объект абстрактного класса. Для того, чтобы можно было ввести счет пользователем вручную, создается отдельный класс **UserInvoice**. Для него создаются симметричные абстрактным свойства, которые затем добавляются как их реализация.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5c"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5c"/>
 
 Создаем форму для редактирования пользовательского счета. Добавляем на форму со списком абстрактных счетов кнопку по добавлению пользовательского.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5d"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5d"/>
 
 Для заказа создаем опцию **createInvoice**, по которой будет создаваться счет. Затем создаем конкретный класс **OrderInvoice**, который будет наследоваться от **Invoice**. Объект этого класса будет автоматически создаваться и удаляться системой для каждого заказа, у которого проставлена опция **createInvoice**. Таким образом, этот счет является [агрегированным объектом](Агрегации.md) для соответствующего заказа. Аналогичным образом создается агрегация для строки счета относительно строки заказа.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5e"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5e"/>
 
 Указываем, что при попытке редактирования такого агрегированного счета должна открываться форма редактирования связанного заказа.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5f"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution5f"/>
 
 При попытке удаления счета, созданного на основе заказа, будет выдано сообщение с ошибкой.
 

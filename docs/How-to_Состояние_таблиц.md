@@ -10,13 +10,13 @@ title: 'How-to: Состояние таблиц'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormProperties&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormProperties&block=sample1"/>
 
 Нужно вывести на форму количество книг с учетом отборов, сделанных пользователем.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormProperties&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormProperties&block=solution1"/>
 
 Для решения используется оператор [FILTER](Фильтр_FILTER.md), который возвращает **TRUE**, если объект находится в текущей отборе на форме.
 
@@ -30,7 +30,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFormProperties&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormProperties&block=solution2"/>
 
 Свойство с текущим порядком, определяемое при помощи оператора [ORDER](Порядок_ORDER.md), не выделяется в отдельное именованное свойство, а используется непосредственно в выражении.
 

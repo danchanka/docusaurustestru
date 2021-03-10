@@ -10,15 +10,15 @@ title: 'How-to: Расширение действий'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseActionShape&block=shape"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseActionShape&block=shape"/>
 
 Создаем классы **Square** и **Circle**, который наследуется от **Shape** :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseActionShape&block=concreteclass"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseActionShape&block=concreteclass"/>
 
 Определяем реализацию **whoAmI** для созданных классов :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseActionShape&block=concreteaction"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseActionShape&block=concreteaction"/>
 
 При выполнении действия **whoAmI** будут вызваны все действия, которые были добавлены в качестве реализации. В описанном случае будет выдано соответствующее сообщение в зависимости от переданного аргумента.
 
@@ -28,8 +28,8 @@ import {CodeSample} from './CodeSample.mdx'
 
 Объявляем класс **Book** и действия по его копированию :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseActionBook"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseActionBook"/>
 
 В зависимом модуле **MyBook** расширяем класс **Book** новыми свойствами и делаем, чтобы они также копировались :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseActionMyBook"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseActionMyBook"/>

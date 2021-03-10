@@ -16,9 +16,9 @@ title: 'Активность (ACTIVE)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=activetab"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=activetab"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=activeform"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=activeform"/>
 
   

@@ -10,13 +10,13 @@ title: 'How-to: FOR'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=sample1"/>
 
 Нужно найти все книги, содержащие определенную строк и выдать сообщение с именем и внутренним кодом.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=solution1"/>
 
 Для определения содержит ли одна строка другую используется свойство isSubstring, определенное в системном [модуле](Модули.md) **Utils**.
 
@@ -30,7 +30,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=solution2"/>
 
 Оба варианта идентичны с точки зрения полученного результата.
 
@@ -42,13 +42,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**, но добавлена логика заказов. Для каждого заказа заданы строки с указанием книги, цен со скидками.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=sample3"/>
 
 Нужно создать действие, которое проставит скидку всем строкам, у которых цена больше 100.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=solution3"/>
 
 Оба варианта идентичны с точки зрения полученного результата.
 
@@ -58,12 +58,12 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 3**, но для книги добавлена цена по умолчанию.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=sample4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=sample4"/>
 
 Нужно создать действие, которое добавит в заказ все книги с ценой больше 100.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFor&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=solution4"/>
 
 Оба варианта идентичны с точки зрения полученного результата.

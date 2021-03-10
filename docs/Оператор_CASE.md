@@ -20,7 +20,7 @@ title: 'Оператор CASE'
 
 ** ***exclusionType*
 
-** **[Тип взаимоисключения](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#Выбор(CASE,IF,MULTI,OVERRIDE,EXCLUSIVE-broken)-exclusive). Определяет, могут ли одновременно несколько свойств-условий одновременно выполняться при некотором наборе параметров. Задается одним из ключевых слов:
+** **[Тип взаимоисключения](Выбор_CASE_IF_MULTI_OVERRIDE_EXCLUSIVE.md#взаимоисключаемость-условий). Определяет, могут ли одновременно несколько свойств-условий одновременно выполняться при некотором наборе параметров. Задается одним из ключевых слов:
 
 -   **EXCLUSIVE**
 -   **OVERRIDE**
@@ -47,4 +47,4 @@ title: 'Оператор CASE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=case"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=case"/>

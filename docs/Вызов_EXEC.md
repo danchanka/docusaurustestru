@@ -12,7 +12,7 @@ title: 'Вызов (EXEC)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=exec"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=exec"/>
 
 **  
 **

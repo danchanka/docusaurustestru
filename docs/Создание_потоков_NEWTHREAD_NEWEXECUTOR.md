@@ -24,10 +24,10 @@ title: 'Создание потоков (NEWTHREAD, NEWEXECUTOR)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=newthread"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=newthread"/>
 
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=newexecutor"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=newexecutor"/>
 
  
 

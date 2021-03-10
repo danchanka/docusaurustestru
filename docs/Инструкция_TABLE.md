@@ -37,6 +37,6 @@ title: 'Инструкция TABLE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=InstructionSample&block=table"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=InstructionSample&block=table"/>
 
   

@@ -66,5 +66,5 @@ title: 'Оператор WRITE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=write"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=write"/>
 

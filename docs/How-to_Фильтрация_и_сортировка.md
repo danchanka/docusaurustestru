@@ -10,13 +10,13 @@ title: 'How-to: Фильтрация и сортировка'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFilter&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFilter&block=sample1"/>
 
 Необходимо создать форму для отображения остатков книг на заданном складе в алфавитном порядке.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFilter&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFilter&block=solution1"/>
 
 Вариант 1 устанавливает принудительный фильтр, который пользователь не сможет снять. Вариант 2 дает пользователю возможность выбирать между предопределенными критериями (по умолчанию будет использоваться тот, для которого установлена опция *DEFAULT*).
 
@@ -30,7 +30,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFilter&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFilter&block=solution2"/>
 
 В данном случае, склад нельзя объявлять через конструкцию *OBJECTS*, поскольку тогда не будет возможности не указывать склад для фильтрации.
 
@@ -40,13 +40,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть список заказов определенным покупателям
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFilter&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFilter&block=sample3"/>
 
 Необходимо создать форму для отображения списка заказов с возможностью фильтрации по датам и/или покупателям. По умолчанию, заказы должны идти по убыванию даты.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseFilter&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFilter&block=solution3"/>
 
 Следует отметить, что даты в таком случае должны быть выбраны всегда (по умолчанию, при открытии формы будут проставлены текущая дата). Покупателя же можно не выбирать.
 

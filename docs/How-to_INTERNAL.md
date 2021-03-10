@@ -12,7 +12,7 @@ title: 'How-to: INTERNAL'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution1"/>
 
 Для решения задачи необходимо создать действие при помощи оператора [INTERNAL](Оператор_INTERNAL.md), которое создаст объект класса **GetIP** (если у класса есть package, то в названии класса нужно также указывать package) и вызовет у него метод **executeInternal**. Исходный код этого класса :
 
@@ -48,7 +48,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Существует также альтернативный способ задания данного свойства :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution1fusion"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution1fusion"/>
 
 Платформа сама генерирует нужный класс, добавляя туда заданный код, а затем компилирует его при помощи компилятора [Janino](https://janino-compiler.github.io/janino/). Преимущество такого подхода в том, что при сборке проекта не потребуется отдельный шаг с компиляцией Java кода. Однако, такой подход имеет ряд существенных ограничений и может использоваться только в самых простых случаях.
 
@@ -60,7 +60,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution2"/>
 
 Основное отличие от предыдущего примера в том, что действие принимает на вход 2 параметра типа **INTEGER**. Это нужно учитывать при написании класса **CalculateGCD**. Вот его исходный код :
 
@@ -105,7 +105,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution3"/>
 
 В этом примере необходимо сначала считать значения свойств для переданного объекта, а затем записать результат также в свойство с одним входом. Делается это следующим образом :
 
@@ -154,7 +154,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution4"/>
 
 Java код действия, созданного при помощи оператора **INTERNAL**, выполняется в виртуальной машине сервера. Поэтому нельзя вызывать сигнал непосредственно в коде класса, наследуемого от **InternalAction**. Для этой цели существует метод **requestUserInteraction**, в который нужно передать класс, наследуемый от класса **ClientAction**.
 

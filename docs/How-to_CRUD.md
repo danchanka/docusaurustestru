@@ -10,13 +10,13 @@ title: 'How-to: CRUD'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample1"/>
 
 Необходимо создать форму для выбора типа из списка.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution1"/>
 
 Конструкция *DIALOG* обозначает, что данная форма будет использоваться при необходимости выбора списка типов (например, при попытке изменения типа для книги).
 
@@ -26,7 +26,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть набор книг с заданными наименованиями.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample2"/>
 
 Следует отметить, что все свойства **name** рекомендуется добавлять в группу **id**. Значения этого свойства будут идентифицировать объект в случае нарушения ограничения. Также оно будет добавлено на автоматические формы, если для класса не будут заданы формы редактирования и выбора.
 
@@ -36,7 +36,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution2"/>
 
 ##### Пример 3
 
@@ -44,12 +44,12 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть набор жанров книг с заданными наименованиями.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=sample3"/>
 
 Необходимо создать форму со списком жанров, с возможностью их добавления, редактирования и удаления, и отдельную форму для выбора без такой возможности.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCRUD&block=solution3"/>
 
 Такая схема (с тремя формами, вместо двух) наиболее подходит для того, чтобы отключить возможность редактирования жанров при их выборе, с целью минимизировать вероятность случайного исправления пользователем информации о жанрах. В таком случае, изменять жанры можно только на специальной форме.

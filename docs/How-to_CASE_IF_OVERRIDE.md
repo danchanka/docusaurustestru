@@ -10,13 +10,13 @@ title: 'How-to: CASE/IF/OVERRIDE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample1"/>
 
 Нужно определить свойство, которое возвращает цвет книги.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution1"/>
 
 В данном случае эти два варианта идентичны.
 
@@ -26,13 +26,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть заказы на книги поставщикам. Для каждого из них определено, был ли он отправлен поставщику, согласован и поставлен. В примере они введены как [первичные](Первичные_свойства_DATA.md) свойства, но в более сложных случаях они будут вычисляемыми.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample2"/>
 
 Необходимо определить статус заказа.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution2"/>
 
 ##### Пример 3
 
@@ -44,7 +44,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution3"/>
 
 ##### Пример 4
 
@@ -52,13 +52,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогичен **Примеру 3**, только для книги задана категория.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample4"/>
 
 Нужно задать для книги торговую надбавку, но чтобы можно было задать значение по умолчанию для категории, к которой она относится.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution4"/>
 
 ##### Пример 5
 
@@ -66,12 +66,12 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть набор книг, для каждой из которых задан номер.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=sample5"/>
 
 Нужно найти номер, следующий за максимальным.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseCIO&block=solution5"/>
 
 Оператор (+) используется вместо обычного оператора +, так как  если не будет ни одной книги, то обычное сложение с единицей вернет **NULL**.

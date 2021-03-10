@@ -127,9 +127,9 @@ charsetStr - строковый литерал, определяющий код�
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=exportplain"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=exportplain"/>
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=export"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=export"/>
 
   
 

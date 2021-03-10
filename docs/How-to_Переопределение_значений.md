@@ -10,37 +10,37 @@ title: 'How-to: Переопределение значений'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block1"/>
 
 Используя оператор [RECURSION](Оператор_RECURSION.md) для любых двух категорий посчитаем свойство *уровень*, которое будет равно двойке возведенной в степень расстояния между ними.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block2"/>
 
 Построим свойство, которое будет по категории и уровню определять соответствующего родителя.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block3"/>
 
 Находим минимальный уровень категории, для которой задана надбавка. Он же будет уровнем "ближайшей вверх" категории с заданной надбавкой.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block4"/>
 
 По этому уровню определяем саму категорию и надбавку для нее.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block5"/>
 
 Таким образом, в свойстве **overMarkup** будет искомое значение надбавки для категории с учетом их иерархии.
 
 Теперь определим логику книг. Каждая из них привязана к некоторой категории, которая может быть на любом уровне иерархии.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block6"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block6"/>
 
 Зададим первичное свойство надбавки для товара. После этого построим переопределенное свойство, которое будет возвращать надбавку для товара, если оно не равно **NULL**, и построенное ранее свойство с надбавкой для категории.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block7"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block7"/>
 
 Наконец нарисуем форму, в которой пользователь сможет вводить надбавку для категорий и товаров одновременно. И для категории, и для товара выведем как первичную надбавку, так и переопределенную. При этом изменения в переопределенных свойствах на форме будут отображаться сразу, но сохраняться только в момент нажатия соответствующей кнопки.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseOverride&block=block7"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseOverride&block=block7"/>
 
 В итоге форма с заполненным данными будет выглядеть следующим образом :
 

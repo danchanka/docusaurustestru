@@ -10,13 +10,13 @@ title: 'How-to: Дизайн'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDesign&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDesign&block=sample1"/>
 
 Необходимо настроить дизайн формы таким образом, чтобы строки и оплаты шли отдельными вкладками и отделялись от списка заказов при помощи вертикального сплиттера.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDesign&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDesign&block=solution1"/>
 
 Форма будет выглядеть следующим образом :
 
@@ -28,13 +28,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично Примеру 1, только на форму добавлены фильтры по дате и покупателю.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDesign&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDesign&block=sample2"/>
 
 Нужно добавить элементы фильтрации в дизайн ранее созданной формы.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDesign&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDesign&block=solution2"/>
 
 Результат :
 

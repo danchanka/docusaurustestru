@@ -10,13 +10,13 @@ title: 'How-to: DELETE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDelete&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDelete&block=sample1"/>
 
 Нужно создать действие, которое удалит книгу, если по ней нету заказов.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDelete&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDelete&block=solution1"/>
 
 ##### Пример 2
 
@@ -28,6 +28,6 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDelete&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDelete&block=solution2"/>
 
 Оба варианта равносильны с точки зрения выполнения.

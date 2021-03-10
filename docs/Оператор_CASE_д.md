@@ -20,7 +20,7 @@ title: 'Оператор CASE (д)'
 
 ** ***exclusionType*
 
-** **[Тип взаимоисключени](Ветвление_CASE_IF_MULTI.md#Ветвление(CASE,IF,MULTI-broken)-exclusive)[я](Ветвление_CASE_IF_MULTI.md#Ветвление(CASE,IF,MULTI-broken)-exclusive). Определяет, могут ли одновременно несколько свойств-условий выполняться одновременно при некотором наборе параметров. Задается одним из ключевых слов:
+** **[Тип взаимоисключени](Ветвление_CASE_IF_MULTI.md#взаимоисключаемость-условий)[я](Ветвление_CASE_IF_MULTI.md#взаимоисключаемость-условий). Определяет, могут ли одновременно несколько свойств-условий выполняться одновременно при некотором наборе параметров. Задается одним из ключевых слов:
 
 -   **EXCLUSIVE**
 -   **OVERRIDE**
@@ -46,4 +46,4 @@ title: 'Оператор CASE (д)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=case"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=case"/>

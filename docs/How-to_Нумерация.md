@@ -6,27 +6,27 @@ title: 'How-to: Нумерация'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numbermaster"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numbermaster"/>
 
 Реализуем свойство, которое будет по номеру находить книгу. Оно может быть полезно, например, при импорте данных, в котором книга идентифицируется своим номером. При помощи него можно получать ссылку на объект книги, получив параметром ее номер.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numberaggr"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numberaggr"/>
 
 Оператор [GROUP AGGR](Группировка_GROUP.md) автоматически добавляет ограничение на уникальность номера. При попытки записать в базу данных повторный номер будет выдано сообщение об ошибке.
 
 Добавляем [событие](События.md), которое будет автоматически проставлять книге номер, равный следующий за максимальным из существующих в базе данных.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numbergenerate"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numbergenerate"/>
 
 Событие будет вызвано в момент сохранения создания книги в базу данных в той же транзакции.
 
 В некоторых ситуациях существует необходимость делать разную нумерацию для одного и того же объекта. Для этой цели можно добавить специальный класс **Numerator**.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numerator"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numerator"/>
 
 В свойстве **value** будет храниться текущее значение нумератора, которое будет записываться в номер нужного объекта. Чтобы достичь этого, для объекта (например, заказ) задается ссылка на соответствующей нумератор. В момент создания объекта, если она задана, то нужно автоматически проставить номеру заказа текущее значение нумератора и увеличить его на один.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numeratororder"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numeratororder"/>
 
 В условии события проверяется на то, что номер не был изменен, чтобы не изменять его, если пользователь вручную задал номер (или он проставился при импорте).
 
@@ -34,4 +34,4 @@ import {CodeSample} from './CodeSample.mdx'
 
 Для того, чтобы пользователю не приходилось постоянно выбирать нумератор для заказа, можно ввести свойство без входов, которое будет указывать на нумератор по умолчанию. После этого добавить событие, которое будет автоматически проставлять нумератор, в случае если пользователь не выбрал его вручную.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numeratororderdefault"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNumerating&block=numeratororderdefault"/>

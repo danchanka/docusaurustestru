@@ -18,7 +18,7 @@ title: 'Оператор DATA'
 
 *LOCAL*
 
-Ключевое слово, при указании которого создается [локальное первичное свойство](Первичные_свойства_DATA.md#Первичныесвойства(DATA-broken)-Сессионныепервичныесвойства). 
+Ключевое слово, при указании которого создается [локальное первичное свойство](Первичные_свойства_DATA.md#Сессионныепервичныесвойства-broken). 
 
 *NESTED*
 
@@ -37,7 +37,7 @@ title: 'Оператор DATA'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=data"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=data"/>
 
 **  
 **

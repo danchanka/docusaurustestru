@@ -10,13 +10,13 @@ title: 'How-to: Документы со строками'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=sample1"/>
 
 Необходимо создать форму со списком заказов с возможностью их добавления, редактирования и удаления.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution1"/>
 
 На форме *order* для объекта строки не добавляется ссылка на заказ, так как при добавлении объекта через *NEW*, ссылка будет автоматически проставлена на основании конструкции *FILTERS*.
 
@@ -30,7 +30,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseDocument&block=solution2"/>
 
 Это бывает удобно, чтобы пользователь мог смотреть состав заказа, не редактируя его.
 

@@ -10,13 +10,13 @@ title: 'How-to: Импорт данных'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=sample1"/>
 
 Нужно сделать кнопку, которая загрузит содержимое заказа из Excel-файла, выбранного пользователем на своем компьютере.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=solution1"/>
 
 Оператор [INPUT](Оператор_INPUT.md), который запрашивает файл, вызовет пользователю диалог с выбором файлов с расширениями xls и xlsx. При успешном выборе будет вызвано [действие](Действия.md), которое следует после слова **DO**.
 
@@ -30,13 +30,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**. Кроме того, задан директорий, в который некоторая внешняя система складывает заказы. Для каждого заказа формируется отдельный файл в формате CSV, в котором хранятся дата и номер заказа (в денормализованном виде), а также код книги, количество и цена.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=sample2"/>
 
 Необходимо реализовать действие, которое будет импортировать из этой папки заказы в систему.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=solution2"/>
 
 Действие **listFiles** объявлено в системном [модуле](Модули.md) **Utils**. Оно сканирует указанную в параметре папку и считывает все файлы из нее в свойства **fileName** (имя файла) и **fileIsDirectory** (логическое свойство - является ли файл директорием).
 
@@ -60,7 +60,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=solution3"/>
 
 Синхронизация состоит из трех основных действий. Сначала создаются книги, коды которых есть во внешней базе данных, но нету в нашей базе. Затем для всех книг, которые есть в нашей базе данных изменяются значения на новые. И в конце удаляются книги, коды которых отсутствуют во внешней базе данных.
 
@@ -74,7 +74,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Для строки заказа добавлена расшифровка этой строки по цветам и размерам.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=sample4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=sample4"/>
 
 Необходимо реализовать импорт заказов из JSON файла заданной структуры. Пример JSON-файла :
 
@@ -170,7 +170,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseImport&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseImport&block=solution4"/>
 
 Для реализации импорта нужно объявить форму [структуры](Структурированное_представление.md), соответствующей структуре JSON-файла.
 

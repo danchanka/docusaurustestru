@@ -10,11 +10,11 @@ title: 'How-to: Ввод данных'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInput&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInput&block=sample1"/>
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInput&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInput&block=solution1"/>
 
   
 
@@ -24,7 +24,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть форма которая отображает список книг. В этой форме, при необходимости, можно задать жанр, и, соответственно, книги только этого жанра будут отображаться. Также есть форма списка заказов, в которой также можно фильтровать по жанрам. Для книги существует признак запрета, соответственно в заказе могут быть только не запрещенные книги.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInput&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInput&block=sample2"/>
 
 Необходимо подменить на форме заказов выбор книги таким образом, чтобы вызывалась форма выбора по жанрам. При этом :
 
@@ -36,6 +36,6 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseInput&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInput&block=solution2"/>
 
   

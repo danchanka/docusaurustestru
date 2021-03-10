@@ -10,13 +10,13 @@ title: 'How-to: Навигатор'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNavigator&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNavigator&block=sample1"/>
 
 Нужно добавить их в [навигатор](Навигатор.md) в новую папку **Приложение** снизу от основного тулбара.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNavigator&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNavigator&block=solution1"/>
 
 Указав **WINDOW** для элемента **application**, мы указали, что все его потомки должны отображаться в системном [окне](Дизайн_навигатора.md) **toolbar**. Это будет выглядеть следующим образом :
 
@@ -32,7 +32,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseNavigator&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseNavigator&block=solution2"/>
 
 Результат :
 

@@ -10,13 +10,13 @@ title: 'How-to: GROUP CONCAT'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConcat&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConcat&block=sample1"/>
 
 Необходимо получить список тэгов книги через запятую в алфавитном порядке.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConcat&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConcat&block=solution1"/>
 
 Желательно для всех свойств, которые строятся при помощи **GROUP CONCAT**, задавать размеры, которые будут использоваться для вывода их на форму. По умолчанию система работает по "пессимистичному" сценарию и выдает очень много места таким свойствам.
 
@@ -26,10 +26,10 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть набор книг, привязанный к определенным категориям и авторам.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConcat&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConcat&block=sample2"/>
 
 Необходимо получить список всех авторов по категории через запятую по убыванию количества книг.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseConcat&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseConcat&block=solution2"/>

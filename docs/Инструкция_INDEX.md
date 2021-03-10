@@ -40,6 +40,6 @@ title: 'Инструкция INDEX'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=InstructionSample&block=index"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=InstructionSample&block=index"/>
 
   

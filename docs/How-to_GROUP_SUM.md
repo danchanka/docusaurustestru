@@ -10,13 +10,13 @@ title: 'How-to: GROUP SUM'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=sample1"/>
 
 Необходимо посчитать количество книг в категории.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=solution1"/>
 
 ##### Пример 2
 
@@ -24,13 +24,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Есть набор книг, привязанных к определенным тегам. Каждая книга может относиться к нескольким тегам одновременно.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=sample2"/>
 
 Необходимо посчитать количество книг в теге.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=solution2"/>
 
 ##### Пример 3
 
@@ -38,13 +38,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Существует информация о движении книг, где для каждой записи есть ссылка на книгу и склад, по которому было движение, а также количество и тип операции (приход/расход).
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=sample3"/>
 
 Необходимо посчитать текущей остаток по складу для книги.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=solution3"/>
 
 Свойство **currentBalance** лучше всего помечать как **[MATERIALIZED](Материализации.md)** для того, чтобы при чтении текущего остатка система не считала его на основе движения за все время, а обращалась бы к таблице **bookStock** с уже готовым значением. Это замедляет запись (так как при записи каждого движения будет требоваться обновление текущего остатка), однако значительно ускоряет чтение.
 
@@ -56,13 +56,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 3**, только для движения указана дата движения.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=sample4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=sample4"/>
 
 Необходимо посчитать остаток по складу для книги на дату (на утро, без учета движений за выбранную дату).
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=solution4"/>
 
   
 
@@ -76,7 +76,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseSum&block=solution5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSum&block=solution5"/>
 
   
 

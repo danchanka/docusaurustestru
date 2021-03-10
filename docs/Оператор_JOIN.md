@@ -49,11 +49,11 @@ title: 'Оператор JOIN'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=join1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=join1"/>
 
 **  
 **
 
 Иногда удобно задавать главное свойство с помощью выражения, чтобы упростить исходный код и сделать его более понятным.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=OperatorPropertySample&block=join2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=OperatorPropertySample&block=join2"/>

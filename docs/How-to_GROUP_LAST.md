@@ -10,13 +10,13 @@ title: 'How-to: GROUP LAST'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=sample1"/>
 
 Необходимо найти последнюю приходившую книгу по выбранной категории.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=solution1"/>
 
 Важно помнить, что в **ORDER* ***должен указываться однозначно определяемый порядок. Для этого вторым параметром там добавлена сама книга (точнее ее внутренний идентификатор), так как у нескольких книг может совпадать дата прихода.
 
@@ -26,13 +26,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогичен **Примеру 1**, но для каждой книги задан автор и список жанров.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=sample2"/>
 
 Нужно найти наиболее часто встречающуюся категорию по автору и жанру.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=solution2"/>
 
 ##### Пример 3
 
@@ -40,13 +40,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Задан некоторый набор книг, и есть информация об изменении цен для книги и склада. Каждый объект класса **Ledger** отражает одно изменение цены, начиная с определенной даты.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=sample3"/>
 
 Нужно определить текущую цену, действующую на книгу для склада.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=solution3"/>
 
 ##### Пример 4
 
@@ -58,7 +58,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=solution4"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=solution4"/>
 
 ##### Пример 5
 
@@ -66,10 +66,10 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично Примеру 4, только для изменения цены есть срок окончания действия. Если он не задан, то считается, что цена действует бесконечно.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=sample5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=sample5"/>
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLast&block=solution5"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLast&block=solution5"/>
 
 Важно учитывать, что выражение *NOT dateTo(l) < date* не эквивалентно *dateTo(l) \>= date*. Отличие возникает, когда значение *dateTo(l)* равно *NULL*. В первом случае *dateTo(l) < date* будет равно *NULL*(то есть ложь), а *NOT NULL* равно TRUE. Во втором случае выражение будет сразу равно *NULL* (то есть ложь).

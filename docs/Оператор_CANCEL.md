@@ -15,7 +15,7 @@ title: 'Оператор CANCEL'
 
 ### Описание
 
-Оператор **CANCEL** создает действие, которое отменяет изменения в текущей сессии. С помощью указания ключевого слова **NESTED **можно указать [локальные свойства](Первичные_свойства_DATA.md#Первичныесвойства(DATA-broken)-local), изменения которых не сбросятся при отмене изменений. 
+Оператор **CANCEL** создает действие, которое отменяет изменения в текущей сессии. С помощью указания ключевого слова **NESTED **можно указать [локальные свойства](Первичные_свойства_DATA.md#локальные-первичные-свойства), изменения которых не сбросятся при отмене изменений. 
 
 ### Параметры
 
@@ -32,6 +32,6 @@ title: 'Оператор CANCEL'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=cancel"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=cancel"/>
 
   

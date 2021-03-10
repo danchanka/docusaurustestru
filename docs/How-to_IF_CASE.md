@@ -10,13 +10,13 @@ title: 'How-to: IF/CASE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseIfCase&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseIfCase&block=sample1"/>
 
 Нужно создать действие, которое установит определенную цену на книгу, если она относится к заданной категории, и фиксированную цену в противном случае. Если категория не выбрана, то должно быть выдано сообщение об ошибке.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseIfCase&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseIfCase&block=solution1"/>
 
 ##### Пример 2
 
@@ -28,4 +28,4 @@ import {CodeSample} from './CodeSample.mdx'
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseIfCase&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseIfCase&block=solution2"/>

@@ -2,7 +2,7 @@
 title: 'Оператор ASK'
 ---
 
-Оператор **ASK **- создание действия, которое показывает пользователю сообщение в [диалоговой форме](Показ_сообщения_MESSAGE_ASK.md#Показсообщения(MESSAGE,ASK-broken)-dialog).
+Оператор **ASK **- создание действия, которое показывает пользователю сообщение в [диалоговой форме](Показ_сообщения_MESSAGE_ASK.md#диалоговая-форма).
 
 ### Синтаксис
 
@@ -41,6 +41,6 @@ title: 'Оператор ASK'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=ask"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=ask"/>
 
   

@@ -2,7 +2,7 @@
 title: 'Оператор NESTEDSESSION'
 ---
 
-Оператор **NESTEDSESSION **- создание [действия](Действия.md), которое выполняет другое действие во [вложенной сессии](Создание_сессий_NEWSESSION_NESTEDSESSION.md#Созданиесессий(NEWSESSION,NESTEDSESSION-broken)-nested).
+Оператор **NESTEDSESSION **- создание [действия](Действия.md), которое выполняет другое действие во [вложенной сессии](Создание_сессий_NEWSESSION_NESTEDSESSION.md#вложенные-сессии).
 
 ### Синтаксис
 
@@ -23,6 +23,6 @@ title: 'Оператор NESTEDSESSION'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=nestedsession"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=nestedsession"/>
 
   

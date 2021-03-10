@@ -10,13 +10,13 @@ title: 'How-to: WHILE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseWhile&block=sample1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseWhile&block=sample1"/>
 
 Нужно для каждой даты из заданного интервала выдать сообщение пользователю с количеством заказов за эту дату.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseWhile&block=solution1"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseWhile&block=solution1"/>
 
 Оба варианта идентичны с точки зрения полученного результата.
 
@@ -28,13 +28,13 @@ import {CodeSample} from './CodeSample.mdx'
 
 Аналогично **Примеру 1**. Также определены строки заказов, для каждой из которой определены сумма (полная) и сумма скидки.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseWhile&block=sample2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseWhile&block=sample2"/>
 
 Нужно создать действие, которое "распишет" заданную сумму скидки по строкам, начиная со строки с наибольшей суммой.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseWhile&block=solution2"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseWhile&block=solution2"/>
 
 ##### Пример 3
 
@@ -42,10 +42,10 @@ import {CodeSample} from './CodeSample.mdx'
 
 Задана логика изменения остатка для книги следующим образом :
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseWhile&block=sample3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseWhile&block=sample3"/>
 
 Нужно создать действие, которое посчитает накопленный остаток (интеграл) за определенный интервал времени.
 
 ###### Решение
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseWhile&block=solution3"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseWhile&block=solution3"/>

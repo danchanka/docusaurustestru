@@ -31,6 +31,6 @@ title: 'Инструкция EXTEND FORM'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=FormSample&block=extendform"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=FormSample&block=extendform"/>
 
   

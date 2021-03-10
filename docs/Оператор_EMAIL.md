@@ -61,4 +61,4 @@ title: 'Оператор EMAIL'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=email"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=email"/>

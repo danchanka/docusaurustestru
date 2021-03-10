@@ -8,7 +8,7 @@ title: 'How-to: Регистры'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skumaster"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skumaster"/>
 
 Теоретически, можно просто сделать [свойство](Свойства.md), которое будет складывать все приходные операции, затем вычитать все расходные, при этом все операции будут задаваться в явную. Недостаток такого подхода в том, что при добавлении новой операции нужно будет добавлять ее в формулу расчета остатка. Кроме того, тяжело будет построить форму со списком всех операций, изменяющих остаток по конкретному SKU и складу. Также будет нарушена [модульность](Модульность.md), поскольку модуль, в котором будет объявлено свойство остаток, должен зависеть от всех модулей с операциями, который на него влияют.
 
@@ -16,29 +16,29 @@ import {CodeSample} from './CodeSample.mdx'
 
 Все регистры могут иметь произвольное количество и тип измерений, относительно которых они действуют. В данном примере измерениями являются SKU и Склад.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skuledger"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skuledger"/>
 
 Текущий остаток и остаток на определенное время рассчитываются только исходя из свойств класса **SKULedger** без привязки к конкретным операциям. Этот код можно и нужно объявить в отдельном модуле. Модули с конкретными операциями будут его использовать и расширять этот класс.
 
 Например, рассмотрим одну из таких операций *Поступление на склад.*
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skureceipt"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skureceipt"/>
 
 Для того, чтобы "провести" ее по регистру, нужно [расширить класс](Расширение_классов.md) **SKULedger** классом строки поступления на склад **ReceiptDetail**. Также необходимо [расширить свойства](Расширение_свойств.md) регистра.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skureceiptimplement"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skureceiptimplement"/>
 
 Рассмотрим более сложный случай, когда есть документ перемещения со склада на склад.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skutransfer"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skutransfer"/>
 
 В этом случае, строки документа нужно "проводить" по регистру дважды. По аналогии с поступлением проведем строку по регистру как расходную операцию с отрицательным количеством.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skutransferimplement"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skutransferimplement"/>
 
 Для того, чтобы провести его по регистру для склада куда перемещается товар, воспользуемся [агрегацией](Агрегации.md) объектов. Строка документа перемещения будет генерировать объект класса, который в свою очередь будет "проводиться" по регистру.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=skutransferaggregation"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=skutransferaggregation"/>
 
 Объект регистра будет создаваться только в том случае, когда документ перемещения проведен. Соответственно, в таком случае свойство **posted** в таком случае будет всегда равно **TRUE**.
 
@@ -50,12 +50,12 @@ import {CodeSample} from './CodeSample.mdx'
 
 Для реализации техники вводится абстрактный класс **PriceLedger**, один экземпляр которого отражает единичное изменение цены по одному SKU и одному складу в определенное время.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=priceledger"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=priceledger"/>
 
 На выходе получаем свойства, которые определяет цену по SKU и складу на дату/время, последнюю цену, а также последнюю цену по SKU для всех складов.
 
 Аналогично регистру накоплений проводим документы по регистру сведений.
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseLedger&block=pricereceiptimplement"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseLedger&block=pricereceiptimplement"/>
 
 В данном случае, сигнатуру абстрактного свойства надо указывать в явную, так как с одним именем и пространством имен их существует несколько (точно также свойства называются для класса **SKULedger**).

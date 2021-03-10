@@ -47,7 +47,7 @@ title: 'Оператор WHILE'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=while"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=while"/>
 
 **  
 **

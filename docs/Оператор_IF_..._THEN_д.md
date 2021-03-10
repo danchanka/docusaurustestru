@@ -2,7 +2,7 @@
 title: 'Оператор IF ... THEN (д)'
 ---
 
-Оператор **IF ... THEN** - создание [действия](Действия.md), реализующего [ветвление](Ветвление_CASE_IF_MULTI.md#Ветвление(CASE,IF,MULTI-broken)-single) с одним условием (одиночная форма).
+Оператор **IF ... THEN** - создание [действия](Действия.md), реализующего [ветвление](Ветвление_CASE_IF_MULTI.md#одиночная-форма) с одним условием (одиночная форма).
 
 ### Синтаксис
 
@@ -33,6 +33,6 @@ title: 'Оператор IF ... THEN (д)'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=ifthena"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=ifthena"/>
 
   

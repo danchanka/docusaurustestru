@@ -38,6 +38,6 @@ title: 'В структурированном представлении (EXPORT
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=export"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=export"/>
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=ActionSample&block=importForm"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=ActionSample&block=importForm"/>

@@ -8,7 +8,7 @@ title: 'How-to: Явная типизация'
 
 import {CodeSample} from './CodeSample.mdx'
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTyping&block=sums"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTyping&block=sums"/>
 
 Соответственно, первое свойство принимает на вход один параметр класса **OrderDetail**, а второе - один параметр класса **Order**.
 
@@ -18,7 +18,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 Все такие обращения требуют явного указания класса параметров:
 
-<CodeSample url="https://documentation.lsfusion.org/sample?file=UseCaseTyping&block=sref"/>
+<CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseTyping&block=sref"/>
 
   
 
