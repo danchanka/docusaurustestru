@@ -20,7 +20,7 @@ title: 'Строковые операторы (+, CONCAT, SUBSTRING)'
 |<strong>+</strong>, <strong>CONCAT</strong>|<pre><code>result = STRING[p1.blankPadded AND p2.blankPadded, p1.caseInsensitive OR p2.caseInsensitive, p1.length + p2.length]</code></pre>|
 |<strong>SUBSTRING(p, from, length)</strong>|<pre><code>result = STRING[p.blankPadded, p.caseInsensitive, length]</code></pre>|
 
-где *blankPadded*, *caseInsensitive* и *length* определяются аналогично правилам построения [общего предка](Встроенные_классы.md#общий-предок) для двух встроенных классов (семейство - Строки).
+где *blankPadded*, *caseInsensitive* и *length* определяются аналогично правилам построения [общего предка](Встроенные_классы.md#commonparentclass) для двух встроенных классов (семейство - Строки).
 
 В операторе + операнды, классы которых отличны от строк, приводятся к строкам в соответствии со следующей таблицей:
 
