@@ -18,7 +18,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 <CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution1"/>
 
-После закрытия формы вызывается оператор [SEEK](Оператор_SEEK.md), который делает добавленный объект активным.
+После закрытия формы вызывается оператор [SEEK](SEEK_operator.md), который делает добавленный объект активным.
 
 ##### Пример 2
 
@@ -34,7 +34,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 <CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution2"/>
 
-Свойство с покупателем по умолчанию добавляется на форму Настройка во вкладку Общие. Текущий объект изменится при входе на форму, так как сработает событие [ON INIT](Блок_событий.md).
+Свойство с покупателем по умолчанию добавляется на форму Настройка во вкладку Общие. Текущий объект изменится при входе на форму, так как сработает событие [ON INIT](Event_block.md).
 
 ##### Пример 2
 
@@ -50,4 +50,4 @@ import {CodeSample} from './CodeSample.mdx'
 
 <CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseSeek&block=solution3"/>
 
-Свойства по работе с датами находятся в [системном модуле](Модули.md) **Time**, который подключается в самом начале через инструкцию **REQUIRE**.
+Свойства по работе с датами находятся в [системном модуле](Modules.md) **Time**, который подключается в самом начале через инструкцию **REQUIRE**.

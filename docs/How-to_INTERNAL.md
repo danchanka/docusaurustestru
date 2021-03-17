@@ -14,7 +14,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 <CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseInternal&block=solution1"/>
 
-Для решения задачи необходимо создать действие при помощи оператора [INTERNAL](Оператор_INTERNAL.md), которое создаст объект класса **GetIP** (если у класса есть package, то в названии класса нужно также указывать package) и вызовет у него метод **executeInternal**. Исходный код этого класса :
+Для решения задачи необходимо создать действие при помощи оператора [INTERNAL](INTERNAL_operator.md), которое создаст объект класса **GetIP** (если у класса есть package, то в названии класса нужно также указывать package) и вызовет у него метод **executeInternal**. Исходный код этого класса :
 
 ### GetIP.java
 

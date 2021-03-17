@@ -18,7 +18,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 <CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFormula&block=solution1"/>
 
-Для решения задачи создаем свойство при помощи оператора [FORMULA](Оператор_FORMULA.md), которое будет принимать на вход дату и возвращать значение в виде строки в формате YYYY-MM-DD. В выражении формулы используется стандартная функция PostgreSQL [to\_char](https://www.postgresql.org/docs/11/functions-formatting.html).
+Для решения задачи создаем свойство при помощи оператора [FORMULA](FORMULA_operator.md), которое будет принимать на вход дату и возвращать значение в виде строки в формате YYYY-MM-DD. В выражении формулы используется стандартная функция PostgreSQL [to\_char](https://www.postgresql.org/docs/11/functions-formatting.html).
 
 ##### Пример 2
 

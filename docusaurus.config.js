@@ -17,7 +17,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/Изучить',
+          to: 'docs/Learn',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -38,7 +38,7 @@ module.exports = {
           items: [
             {
               label: 'lsf документация',
-              to: 'docs/Изучить',
+              to: 'docs/Learn',
             },
           ],
         },

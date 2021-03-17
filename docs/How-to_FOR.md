@@ -18,7 +18,7 @@ import {CodeSample} from './CodeSample.mdx'
 
 <CodeSample url="https://ru-documentation.lsfusion.org/sample?file=UseCaseFor&block=solution1"/>
 
-Для определения содержит ли одна строка другую используется свойство isSubstring, определенное в системном [модуле](Модули.md) **Utils**.
+Для определения содержит ли одна строка другую используется свойство isSubstring, определенное в системном [модуле](Modules.md) **Utils**.
 
 ##### Пример 2
 
